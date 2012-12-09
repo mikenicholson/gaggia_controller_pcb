@@ -1,0 +1,3 @@
+# Ignore automatically created backup files
+*.b#[1-9]
+*.s#[1-9]
