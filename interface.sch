@@ -2007,6 +2007,7 @@ This has been done to allow matching drill hoes to be places on th.e board for s
 <part name="R2" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="-2" value="TRIMPOT-10k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -2029,6 +2030,7 @@ This has been done to allow matching drill hoes to be places on th.e board for s
 </instance>
 <instance part="GND4" gate="1" x="127" y="43.18"/>
 <instance part="JP3" gate="G$1" x="96.52" y="27.94"/>
+<instance part="JP4" gate="G$1" x="144.78" y="10.16"/>
 </instances>
 <busses>
 </busses>
@@ -2062,6 +2064,10 @@ This has been done to allow matching drill hoes to be places on th.e board for s
 <pinref part="JP1" gate="G$1" pin="5"/>
 <wire x1="106.68" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
 <label x="104.14" y="10.16" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="12.7" x2="154.94" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LCD_DB7" class="0">
@@ -2197,6 +2203,10 @@ This has been done to allow matching drill hoes to be places on th.e board for s
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
 <label x="106.68" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="10.16" x2="154.94" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
