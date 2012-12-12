@@ -139,6 +139,7 @@
 <text x="20.32" y="9.525" size="1.016" layer="22" rot="SMR270" align="center-right">5V</text>
 <text x="22.86" y="9.525" size="1.016" layer="22" rot="SMR270" align="center-right">GND</text>
 <text x="64.135" y="2.54" size="0.8128" layer="22" rot="MR0" align="center-right">SPARE</text>
+<text x="13.97" y="22.86" size="0.8128" layer="22" rot="MR0" align="center">Contrast</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
