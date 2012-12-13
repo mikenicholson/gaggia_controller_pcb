@@ -7461,7 +7461,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="I2C"/>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="PWR_AUX"/>
-<part name="JP9" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="PWR_AUX"/>
+<part name="JP9" library="SparkFun-Connectors" deviceset="M02" device="POLAR" value="PWR_AUX"/>
 </parts>
 <sheets>
 <sheet>
@@ -7573,8 +7573,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="55.88" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
-<label x="15.24" y="53.34" size="1.778" layer="95"/>
+<wire x1="12.7" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<label x="15.24" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
@@ -7601,10 +7601,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="JP5" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="10.16" x2="15.24" y2="7.62" width="0.1524" layer="91"/>
-<label x="15.24" y="7.62" size="1.778" layer="95"/>
-<label x="15.24" y="7.62" size="1.778" layer="95"/>
-<label x="15.24" y="7.62" size="1.778" layer="95"/>
+<wire x1="12.7" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
+<label x="15.24" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -7859,8 +7857,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="53.34" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
-<label x="15.24" y="55.88" size="1.778" layer="95"/>
+<wire x1="12.7" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<label x="15.24" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN1" class="0">
@@ -7938,8 +7936,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="9VIN" class="1">
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="7.62" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
-<label x="15.24" y="10.16" size="1.778" layer="95"/>
+<wire x1="12.7" y1="7.62" x2="15.24" y2="7.62" width="0.1524" layer="91"/>
+<label x="15.24" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="-10.16" x2="68.58" y2="-10.16" width="0.1524" layer="91"/>

@@ -2002,8 +2002,8 @@ This has been done to allow matching drill hoes to be places on th.e board for s
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="6.8 Ohm"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="POLAR"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="10 Ohm"/>
 <part name="R2" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="-2" value="TRIMPOT-10k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
