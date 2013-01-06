@@ -15,7 +15,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -357,6 +357,39 @@ This has been done to allow matching drill hoes to be places on th.e board for s
 </package>
 </packages>
 </library>
+<library name="Mikes-Aesthetics">
+<packages>
+<package name="MN-LOGO">
+<polygon width="0" layer="21">
+<vertex x="-2.3281" y="-1.650834375"/>
+<vertex x="-2.751390625" y="-1.650834375"/>
+<vertex x="-2.751390625" y="1.48151875"/>
+<vertex x="-2.3281" y="1.48151875"/>
+<vertex x="-1.22754375" y="0.16931875"/>
+<vertex x="-0.21164375" y="1.48151875"/>
+<vertex x="0.211646875" y="1.48151875"/>
+<vertex x="2.328103125" y="-0.97356875"/>
+<vertex x="2.328103125" y="1.48151875"/>
+<vertex x="2.75139375" y="1.48151875"/>
+<vertex x="2.75139375" y="-1.650834375"/>
+<vertex x="2.328103125" y="-1.650834375"/>
+<vertex x="0.211646875" y="0.804253125"/>
+<vertex x="0.211646875" y="-1.650834375"/>
+<vertex x="-0.21164375" y="-1.650834375"/>
+<vertex x="-0.21164375" y="0.804253125"/>
+<vertex x="-1.142884375" y="-0.380959375"/>
+<vertex x="-1.3122" y="-0.380959375"/>
+<vertex x="-2.3281" y="0.804253125"/>
+</polygon>
+<wire x1="-3.42865625" y1="-0.042328125" x2="3.428659375" y2="-0.042328125" width="0.3048" layer="21" curve="-180"/>
+<wire x1="3.428659375" y1="-0.042328125" x2="-3.42865625" y2="-0.042328125" width="0.3048" layer="21" curve="-180"/>
+<wire x1="-3.42865625" y1="-0.042328125" x2="-5.88374375" y2="-0.042328125" width="0.3048" layer="21"/>
+<circle x="-5.88374375" y="-0.042328125" radius="0.299309375" width="0.3048" layer="21"/>
+<wire x1="3.428659375" y1="-0.042328125" x2="5.629771875" y2="-0.042328125" width="0.3048" layer="21"/>
+<circle x="5.629771875" y="-0.042328125" radius="0.299309375" width="0.3048" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -566,6 +599,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP4" library="SparkFun-Connectors" package="1X02" value="" x="60.96" y="2.54" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="57.785" y="1.27" size="1.27" layer="28" rot="MR90"/>
 </element>
+<element name="U$5" library="Mikes-Aesthetics" package="MN-LOGO" value="MN-LOGO" x="6.985" y="10.795" rot="MR0"/>
 </elements>
 <signals>
 <signal name="BTN1">

@@ -7409,6 +7409,63 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Mikes-Aesthetics">
+<packages>
+<package name="MN-LOGO">
+<polygon width="0" layer="21">
+<vertex x="-2.3281" y="-1.650834375"/>
+<vertex x="-2.751390625" y="-1.650834375"/>
+<vertex x="-2.751390625" y="1.48151875"/>
+<vertex x="-2.3281" y="1.48151875"/>
+<vertex x="-1.22754375" y="0.16931875"/>
+<vertex x="-0.21164375" y="1.48151875"/>
+<vertex x="0.211646875" y="1.48151875"/>
+<vertex x="2.328103125" y="-0.97356875"/>
+<vertex x="2.328103125" y="1.48151875"/>
+<vertex x="2.75139375" y="1.48151875"/>
+<vertex x="2.75139375" y="-1.650834375"/>
+<vertex x="2.328103125" y="-1.650834375"/>
+<vertex x="0.211646875" y="0.804253125"/>
+<vertex x="0.211646875" y="-1.650834375"/>
+<vertex x="-0.21164375" y="-1.650834375"/>
+<vertex x="-0.21164375" y="0.804253125"/>
+<vertex x="-1.142884375" y="-0.380959375"/>
+<vertex x="-1.3122" y="-0.380959375"/>
+<vertex x="-2.3281" y="0.804253125"/>
+</polygon>
+<wire x1="-3.42865625" y1="-0.042328125" x2="3.428659375" y2="-0.042328125" width="0.3048" layer="21" curve="-180"/>
+<wire x1="3.428659375" y1="-0.042328125" x2="-3.42865625" y2="-0.042328125" width="0.3048" layer="21" curve="-180"/>
+<wire x1="-3.42865625" y1="-0.042328125" x2="-5.88374375" y2="-0.042328125" width="0.3048" layer="21"/>
+<circle x="-5.88374375" y="-0.042328125" radius="0.299309375" width="0.3048" layer="21"/>
+<wire x1="3.428659375" y1="-0.042328125" x2="5.629771875" y2="-0.042328125" width="0.3048" layer="21"/>
+<circle x="5.629771875" y="-0.042328125" radius="0.299309375" width="0.3048" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MN-LOGO">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="0" size="5.08" layer="94" align="center">MN</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MN-LOGO">
+<description>Simple Logo with my initials</description>
+<gates>
+<gate name="G$1" symbol="MN-LOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MN-LOGO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7462,6 +7519,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="I2C"/>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="PWR_AUX"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M02" device="POLAR" value="PWR_AUX"/>
+<part name="U$1" library="Mikes-Aesthetics" deviceset="MN-LOGO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7507,6 +7565,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="JP7" gate="G$1" x="5.08" y="83.82"/>
 <instance part="JP8" gate="G$1" x="5.08" y="99.06"/>
 <instance part="JP9" gate="G$1" x="27.94" y="99.06"/>
+<instance part="U$1" gate="G$1" x="198.12" y="-17.78"/>
 </instances>
 <busses>
 </busses>

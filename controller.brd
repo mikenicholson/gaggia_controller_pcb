@@ -1642,6 +1642,39 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </package>
 </packages>
 </library>
+<library name="Mikes-Aesthetics">
+<packages>
+<package name="MN-LOGO">
+<polygon width="0" layer="21">
+<vertex x="-2.3281" y="-1.650834375"/>
+<vertex x="-2.751390625" y="-1.650834375"/>
+<vertex x="-2.751390625" y="1.48151875"/>
+<vertex x="-2.3281" y="1.48151875"/>
+<vertex x="-1.22754375" y="0.16931875"/>
+<vertex x="-0.21164375" y="1.48151875"/>
+<vertex x="0.211646875" y="1.48151875"/>
+<vertex x="2.328103125" y="-0.97356875"/>
+<vertex x="2.328103125" y="1.48151875"/>
+<vertex x="2.75139375" y="1.48151875"/>
+<vertex x="2.75139375" y="-1.650834375"/>
+<vertex x="2.328103125" y="-1.650834375"/>
+<vertex x="0.211646875" y="0.804253125"/>
+<vertex x="0.211646875" y="-1.650834375"/>
+<vertex x="-0.21164375" y="-1.650834375"/>
+<vertex x="-0.21164375" y="0.804253125"/>
+<vertex x="-1.142884375" y="-0.380959375"/>
+<vertex x="-1.3122" y="-0.380959375"/>
+<vertex x="-2.3281" y="0.804253125"/>
+</polygon>
+<wire x1="-3.42865625" y1="-0.042328125" x2="3.428659375" y2="-0.042328125" width="0.3048" layer="21" curve="-180"/>
+<wire x1="3.428659375" y1="-0.042328125" x2="-3.42865625" y2="-0.042328125" width="0.3048" layer="21" curve="-180"/>
+<wire x1="-3.42865625" y1="-0.042328125" x2="-5.88374375" y2="-0.042328125" width="0.3048" layer="21"/>
+<circle x="-5.88374375" y="-0.042328125" radius="0.299309375" width="0.3048" layer="21"/>
+<wire x1="3.428659375" y1="-0.042328125" x2="5.629771875" y2="-0.042328125" width="0.3048" layer="21"/>
+<circle x="5.629771875" y="-0.042328125" radius="0.299309375" width="0.3048" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1905,6 +1938,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$4" library="SparkFun-Electromechanical" package="STAND-OFF-TIGHT" value="" x="52.705" y="60.96"/>
 <element name="U$5" library="SparkFun-Electromechanical" package="STAND-OFF-TIGHT" value="" x="52.705" y="3.81" rot="R90"/>
 <element name="JP9" library="SparkFun-Connectors" package="MOLEX-1X2" value="PWR_AUX" x="53.975" y="34.925" smashed="yes" rot="R90"/>
+<element name="U$1" library="Mikes-Aesthetics" package="MN-LOGO" value="MN-LOGO" x="41.91" y="20.32" rot="MR270"/>
 </elements>
 <signals>
 <signal name="XTAL1">

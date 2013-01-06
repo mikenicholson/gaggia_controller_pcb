@@ -1983,6 +1983,63 @@ This has been done to allow matching drill hoes to be places on th.e board for s
 </deviceset>
 </devicesets>
 </library>
+<library name="Mikes-Aesthetics">
+<packages>
+<package name="MN-LOGO">
+<polygon width="0" layer="21">
+<vertex x="-2.3281" y="-1.650834375"/>
+<vertex x="-2.751390625" y="-1.650834375"/>
+<vertex x="-2.751390625" y="1.48151875"/>
+<vertex x="-2.3281" y="1.48151875"/>
+<vertex x="-1.22754375" y="0.16931875"/>
+<vertex x="-0.21164375" y="1.48151875"/>
+<vertex x="0.211646875" y="1.48151875"/>
+<vertex x="2.328103125" y="-0.97356875"/>
+<vertex x="2.328103125" y="1.48151875"/>
+<vertex x="2.75139375" y="1.48151875"/>
+<vertex x="2.75139375" y="-1.650834375"/>
+<vertex x="2.328103125" y="-1.650834375"/>
+<vertex x="0.211646875" y="0.804253125"/>
+<vertex x="0.211646875" y="-1.650834375"/>
+<vertex x="-0.21164375" y="-1.650834375"/>
+<vertex x="-0.21164375" y="0.804253125"/>
+<vertex x="-1.142884375" y="-0.380959375"/>
+<vertex x="-1.3122" y="-0.380959375"/>
+<vertex x="-2.3281" y="0.804253125"/>
+</polygon>
+<wire x1="-3.42865625" y1="-0.042328125" x2="3.428659375" y2="-0.042328125" width="0.3048" layer="21" curve="-180"/>
+<wire x1="3.428659375" y1="-0.042328125" x2="-3.42865625" y2="-0.042328125" width="0.3048" layer="21" curve="-180"/>
+<wire x1="-3.42865625" y1="-0.042328125" x2="-5.88374375" y2="-0.042328125" width="0.3048" layer="21"/>
+<circle x="-5.88374375" y="-0.042328125" radius="0.299309375" width="0.3048" layer="21"/>
+<wire x1="3.428659375" y1="-0.042328125" x2="5.629771875" y2="-0.042328125" width="0.3048" layer="21"/>
+<circle x="5.629771875" y="-0.042328125" radius="0.299309375" width="0.3048" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MN-LOGO">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="0" size="5.08" layer="94" align="center">MN</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MN-LOGO">
+<description>Simple Logo with my initials</description>
+<gates>
+<gate name="G$1" symbol="MN-LOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MN-LOGO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2008,6 +2065,7 @@ This has been done to allow matching drill hoes to be places on th.e board for s
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="U$5" library="Mikes-Aesthetics" deviceset="MN-LOGO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2031,6 +2089,7 @@ This has been done to allow matching drill hoes to be places on th.e board for s
 <instance part="GND4" gate="1" x="127" y="43.18"/>
 <instance part="JP3" gate="G$1" x="96.52" y="27.94"/>
 <instance part="JP4" gate="G$1" x="144.78" y="10.16"/>
+<instance part="U$5" gate="G$1" x="147.32" y="53.34"/>
 </instances>
 <busses>
 </busses>
